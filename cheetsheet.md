@@ -40,6 +40,9 @@ git add README.md
 #commit with msg
 git commit -m "Make change 2"
 
+#add remote repo on github
+git remote add origin https://github.com/alsomilo/testsetup.git
+
 #remote push
 git push -u origin master
 
