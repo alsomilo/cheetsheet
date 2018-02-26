@@ -1,3 +1,6 @@
+#export java class
+export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_libs/hapi-fhir-base-3.2.0.jar
+
 #config git global var
 git config --global -e
 
