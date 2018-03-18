@@ -49,6 +49,9 @@ git remote add origin https://github.com/alsomilo/testsetup.git
 #remote push
 git push -u origin master
 
+#remote pull
+git pull -u origin master
+
 #export algo class ext libs
 export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_libs/algs4.jar
 
