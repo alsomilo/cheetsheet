@@ -58,7 +58,7 @@ git remote show origin
 #export algo class ext libs
 export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_libs/algs4.jar
 
-# .gitconfig
+#.gitconfig file
 [user]
 	name = alsomilo
 	email = yuan.wdc@gmail.com
