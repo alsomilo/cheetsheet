@@ -79,4 +79,5 @@ export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_li
 [core]
 	editor = notepadqq
 
-#test
+#resove a conflict
+git mergetool
