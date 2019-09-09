@@ -58,5 +58,25 @@ git remote show origin
 #export algo class ext libs
 export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_libs/algs4.jar
 
-#test
+#.gitconfig file
+[user]
+	name = alsomilo
+	email = yuan.wdc@gmail.com
+[diff]
+        tool = meld
+[difftool]
+        prompt = false
+[difftool "meld"]
+        cmd = meld "$LOCAL" "$REMOTE"
+[merge]
+        tool = meld
+[mergetool "meld"]
+        cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
+       #cmd = meld "$BASE" "$LOCAL" "$REMOTE" --output "$MERGED"
+       #cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+[mergetool]
+        keepBackup = false
+[core]
+	editor = notepadqq
 
+#test
