@@ -81,3 +81,5 @@ export CLASSPATH=$CLASSPATH:/home/milowenwen/eclipse/java-oxygen/eclipse/java_li
 
 #resove a conflict
 git mergetool
+
+test
